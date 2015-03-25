@@ -68,7 +68,7 @@ public class ResultSetConverter {
 
       json.put(obj);
     }
-
+    System.out.println(json);
     return json;
   }
 }

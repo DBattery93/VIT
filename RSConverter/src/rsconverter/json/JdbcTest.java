@@ -10,12 +10,11 @@ package rsconverter.json;
  */
 import java.sql.*;
 
-public class JdbcTest
-{
+public class JdbcTest{
+	
 	public static ResultSet res;
 	
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         
         /**
          * 3306 is the default port for MySQL in XAMPP. Note both the 
@@ -105,8 +104,7 @@ public class JdbcTest
             con.close();
             
         }
-        catch (Exception e)
-        {
+        catch (Exception e){
             e.printStackTrace();
         }
     }
